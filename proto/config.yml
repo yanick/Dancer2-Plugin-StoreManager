@@ -19,7 +19,10 @@ charset: "UTF-8"
 # template_toolkit: TT
 
 template: "simple"
+show_errors: 0
+log: core
 
+serializer: JSON
 plugins:
     StoreManager:
         db: my_store.db
